@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://dhh4e6r6811ix"]
+
+[ext_resource type="PackedScene" uid="uid://dsui4xoxan72u" path="res://scenes/tiles/grass.tscn" id="1_p72wv"]
+
+[node name="Grid" type="Node2D"]
+
+[node name="Grass" parent="." instance=ExtResource("1_p72wv")]
+position = Vector2(128, 2.08165e-12)
+
+[node name="Grass2" parent="." instance=ExtResource("1_p72wv")]
+position = Vector2(2.08165e-12, 2.08165e-12)
+
+[node name="Grass3" parent="." instance=ExtResource("1_p72wv")]
+position = Vector2(2.08165e-12, 64)
+
+[node name="Grass4" parent="." instance=ExtResource("1_p72wv")]
+position = Vector2(128, 64)

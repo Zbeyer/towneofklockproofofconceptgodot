@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://ced401tgqensr"]
+
+[ext_resource type="Texture2D" uid="uid://dlstk7dao3g3" path="res://assets/art/pixel/items/blue_corn.png" id="1_ol7p8"]
+
+[node name="BlueCorn" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_ol7p8")

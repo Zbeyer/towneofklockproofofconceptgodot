@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dekahtk1fb01t"]
+
+[ext_resource type="PackedScene" uid="uid://dhh4e6r6811ix" path="res://scenes/grid.tscn" id="1_x13se"]
+
+[node name="WhiteRoom" type="Node2D"]
+
+[node name="Grid" parent="." instance=ExtResource("1_x13se")]
+position = Vector2(1660, 2033)

@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cdegv0aduj0it"]
+
+[ext_resource type="Texture2D" uid="uid://b06lk8ua36an0" path="res://assets/art/pixel/items/yellow_corn.png" id="1_k1f6j"]
+
+[node name="Corn" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_k1f6j")
